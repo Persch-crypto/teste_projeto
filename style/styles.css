@@ -29,6 +29,14 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background-color: #b2dfdb;
+    transition-duration: 0.5s;
+    color: black;
 }
 
 .hero {
@@ -68,3 +76,4 @@ footer {
     margin-top: 10px;
     font-weight: bold;
 }
+
